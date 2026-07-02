@@ -2508,7 +2508,7 @@ local function CreateOutgoingButton()
     f:SetHeight(32)
 
     f:SetNormalTexture("Interface\\ChatFrame\\UI-ChatIcon-Chat-Up")
-    f:SetPoint("BOTTOM", ChatFrameMenuButton, "TOP", 0, 2)
+    f:SetPoint("TOP", ChatFrame1BottomButton, "BOTTOM", 0, 2)
     f:SetFrameStrata("HIGH")
     f:EnableMouse(true)
     -- f:SetMovable(true)
